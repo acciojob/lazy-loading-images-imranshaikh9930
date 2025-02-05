@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+
+img.lazy {
+  filter: blur(5px);
+  transition: filter 0.5s;
+}
+
+img.loaded {
+  filter: blur(0);
+}
